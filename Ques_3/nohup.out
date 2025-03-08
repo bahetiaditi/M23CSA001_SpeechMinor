@@ -1,0 +1,205 @@
+Training set: 144 samples
+Test set: 36 samples
+
+Vowel distribution in training set:
+vowel
+e    0.347222
+o    0.340278
+u    0.173611
+a    0.069444
+i    0.069444
+Name: proportion, dtype: float64
+
+Vowel distribution in test set:
+vowel
+o    0.305556
+e    0.277778
+u    0.138889
+a    0.138889
+i    0.138889
+Name: proportion, dtype: float64
+Extracting features from training set...
+Processing file 136/144: /Users/aditibaheti/Downloads/speechques3/child_5yo/hoed/nk5rfoo.wav
+Processing file 116/144: /Users/aditibaheti/Downloads/speechques3/child_5yo/hawed/nk5rfaw.wav
+Processing file 2/144: /Users/aditibaheti/Downloads/speechques3/adult_male/hod/namshaa.wav
+Processing file 81/144: /Users/aditibaheti/Downloads/speechques3/child_7yo/hawed/nk7braw.wav
+Processing file 143/144: /Users/aditibaheti/Downloads/speechques3/child_5yo/hud/nk5rfuh.wav
+Processing file 66/144: /Users/aditibaheti/Downloads/speechques3/adult_female/hoed/nafdloo.wav
+Processing file 31/144: /Users/aditibaheti/Downloads/speechques3/adult_male/hood/namphul.wav
+Processing file 125/144: /Users/aditibaheti/Downloads/speechques3/child_5yo/had/nk5mnal.wav
+Processing file 164/144: /Users/aditibaheti/Downloads/speechques3/child_3yo/head/nk3kmel.wav
+Processing file 76/144: /Users/aditibaheti/Downloads/speechques3/child_7yo/hayed/nk7mcee.wav
+Processing file 170/144: /Users/aditibaheti/Downloads/speechques3/child_3yo/heed/nk3ajii.wav
+Processing file 156/144: /Users/aditibaheti/Downloads/speechques3/child_3yo/herd/nk3kmer.wav
+Processing file 162/144: /Users/aditibaheti/Downloads/speechques3/child_3yo/had/nk3aral.wav
+Processing file 113/144: /Users/aditibaheti/Downloads/speechques3/child_5yo/hayed/nk5rfee.wav
+Processing file 84/144: /Users/aditibaheti/Downloads/speechques3/child_7yo/herd/nk7brer.wav
+Processing file 152/144: /Users/aditibaheti/Downloads/speechques3/child_3yo/hawed/nk3kmaw.wav
+Processing file 64/144: /Users/aditibaheti/Downloads/speechques3/adult_female/hoed/nafshoo.wav
+Processing file 163/144: /Users/aditibaheti/Downloads/speechques3/child_3yo/head/nk3ajel.wav
+Processing file 11/144: /Users/aditibaheti/Downloads/speechques3/adult_male/herd/namsher.wav
+Processing file 53/144: /Users/aditibaheti/Downloads/speechques3/adult_female/had/nafdlal.wav
+Processing file 158/144: /Users/aditibaheti/Downloads/speechques3/child_3yo/whod/nk3ajuu.wav
+Processing file 106/144: /Users/aditibaheti/Downloads/speechques3/child_7yo/hud/nk7bruh.wav
+Processing file 165/144: /Users/aditibaheti/Downloads/speechques3/child_3yo/head/nk3arel.wav
+Processing file 94/144: /Users/aditibaheti/Downloads/speechques3/child_7yo/hid/nk7bril.wav
+Processing file 63/144: /Users/aditibaheti/Downloads/speechques3/adult_female/heed/nafkgii.wav
+Processing file 16/144: /Users/aditibaheti/Downloads/speechques3/adult_male/had/namphal.wav
+Processing file 56/144: /Users/aditibaheti/Downloads/speechques3/adult_female/head/nafkgel.wav
+Processing file 22/144: /Users/aditibaheti/Downloads/speechques3/adult_male/hid/namshil.wav
+Processing file 32/144: /Users/aditibaheti/Downloads/speechques3/adult_male/hood/namcrul.wav
+Processing file 138/144: /Users/aditibaheti/Downloads/speechques3/child_5yo/hoed/nk5mgoo.wav
+Processing file 150/144: /Users/aditibaheti/Downloads/speechques3/child_3yo/hayed/nk3kmee.wav
+Processing file 60/144: /Users/aditibaheti/Downloads/speechques3/adult_female/hid/nafdlil.wav
+Processing file 127/144: /Users/aditibaheti/Downloads/speechques3/child_5yo/head/nk5rfel.wav
+Processing file 124/144: /Users/aditibaheti/Downloads/speechques3/child_5yo/had/nk5mgal.wav
+Processing file 70/144: /Users/aditibaheti/Downloads/speechques3/adult_female/hud/nafkguh.wav
+Processing file 8/144: /Users/aditibaheti/Downloads/speechques3/adult_male/hawed/namshaw.wav
+Processing file 73/144: /Users/aditibaheti/Downloads/speechques3/child_7yo/hod/nk7bsaa.wav
+Processing file 61/144: /Users/aditibaheti/Downloads/speechques3/adult_female/heed/nafshii.wav
+Processing file 72/144: /Users/aditibaheti/Downloads/speechques3/adult_female/hud/nafshuh.wav
+Processing file 140/144: /Users/aditibaheti/Downloads/speechques3/child_5yo/hood/nk5mnul.wav
+Processing file 174/144: /Users/aditibaheti/Downloads/speechques3/child_3yo/hoed/nk3kmoo.wav
+Processing file 157/144: /Users/aditibaheti/Downloads/speechques3/child_3yo/whod/nk3aruu.wav
+Processing file 47/144: /Users/aditibaheti/Downloads/speechques3/adult_female/herd/nafdler.wav
+Processing file 33/144: /Users/aditibaheti/Downloads/speechques3/adult_male/hood/namshul.wav
+Processing file 69/144: /Users/aditibaheti/Downloads/speechques3/adult_female/hood/nafshul.wav
+Processing file 176/144: /Users/aditibaheti/Downloads/speechques3/child_3yo/hood/nk3ajul.wav
+Processing file 118/144: /Users/aditibaheti/Downloads/speechques3/child_5yo/herd/nk5mger.wav
+Processing file 52/144: /Users/aditibaheti/Downloads/speechques3/adult_female/had/nafkgal.wav
+Processing file 109/144: /Users/aditibaheti/Downloads/speechques3/child_5yo/hod/nk5rfaa.wav
+Processing file 105/144: /Users/aditibaheti/Downloads/speechques3/child_7yo/hood/nk7mcul.wav
+Processing file 1/144: /Users/aditibaheti/Downloads/speechques3/adult_male/hod/namcraa.wav
+Processing file 123/144: /Users/aditibaheti/Downloads/speechques3/child_5yo/whod/nk5mguu.wav
+Processing file 80/144: /Users/aditibaheti/Downloads/speechques3/child_7yo/hawed/nk7mcaw.wav
+Processing file 97/144: /Users/aditibaheti/Downloads/speechques3/child_7yo/heed/nk7brii.wav
+Processing file 87/144: /Users/aditibaheti/Downloads/speechques3/child_7yo/whod/nk7bruu.wav
+Processing file 114/144: /Users/aditibaheti/Downloads/speechques3/child_5yo/hayed/nk5mnee.wav
+Processing file 67/144: /Users/aditibaheti/Downloads/speechques3/adult_female/hood/nafdlul.wav
+Processing file 71/144: /Users/aditibaheti/Downloads/speechques3/adult_female/hud/nafdluh.wav
+Processing file 101/144: /Users/aditibaheti/Downloads/speechques3/child_7yo/hoed/nk7bsoo.wav
+Processing file 115/144: /Users/aditibaheti/Downloads/speechques3/child_5yo/hawed/nk5mnaw.wav
+Processing file 50/144: /Users/aditibaheti/Downloads/speechques3/adult_female/whod/nafkguu.wav
+Processing file 30/144: /Users/aditibaheti/Downloads/speechques3/adult_male/hoed/namphoo.wav
+Processing file 62/144: /Users/aditibaheti/Downloads/speechques3/adult_female/heed/nafdlii.wav
+Processing file 10/144: /Users/aditibaheti/Downloads/speechques3/adult_male/herd/nampher.wav
+Processing file 89/144: /Users/aditibaheti/Downloads/speechques3/child_7yo/had/nk7mcal.wav
+Processing file 112/144: /Users/aditibaheti/Downloads/speechques3/child_5yo/hayed/nk5mgee.wav
+Processing file 160/144: /Users/aditibaheti/Downloads/speechques3/child_3yo/had/nk3ajal.wav
+Processing file 3/144: /Users/aditibaheti/Downloads/speechques3/adult_male/hod/namphaa.wav
+Processing file 90/144: /Users/aditibaheti/Downloads/speechques3/child_7yo/had/nk7bsal.wav
+Processing file 173/144: /Users/aditibaheti/Downloads/speechques3/child_3yo/hoed/nk3ajoo.wav
+Processing file 35/144: /Users/aditibaheti/Downloads/speechques3/adult_male/hud/namshuh.wav
+Processing file 44/144: /Users/aditibaheti/Downloads/speechques3/adult_female/hawed/nafdlaw.wav
+Processing file 27/144: /Users/aditibaheti/Downloads/speechques3/adult_male/heed/namphii.wav
+Processing file 6/144: /Users/aditibaheti/Downloads/speechques3/adult_male/hayed/namcree.wav
+Processing file 128/144: /Users/aditibaheti/Downloads/speechques3/child_5yo/head/nk5mnel.wav
+Processing file 26/144: /Users/aditibaheti/Downloads/speechques3/adult_male/heed/namshii.wav
+Processing file 177/144: /Users/aditibaheti/Downloads/speechques3/child_3yo/hood/nk3arul.wav
+Processing file 40/144: /Users/aditibaheti/Downloads/speechques3/adult_female/hayed/nafkgee.wav
+Processing file 42/144: /Users/aditibaheti/Downloads/speechques3/adult_female/hayed/nafshee.wav
+Processing file 36/144: /Users/aditibaheti/Downloads/speechques3/adult_male/hud/namcruh.wav
+Processing file 103/144: /Users/aditibaheti/Downloads/speechques3/child_7yo/hood/nk7brul.wav
+Processing file 132/144: /Users/aditibaheti/Downloads/speechques3/child_5yo/hid/nk5mgil.wav
+Processing file 9/144: /Users/aditibaheti/Downloads/speechques3/adult_male/hawed/namphaw.wav
+Processing file 78/144: /Users/aditibaheti/Downloads/speechques3/child_7yo/hayed/nk7bree.wav
+Processing file 139/144: /Users/aditibaheti/Downloads/speechques3/child_5yo/hood/nk5mgul.wav
+Processing file 178/144: /Users/aditibaheti/Downloads/speechques3/child_3yo/hud/nk3ajuh.wav
+Processing file 117/144: /Users/aditibaheti/Downloads/speechques3/child_5yo/hawed/nk5mgaw.wav
+Processing file 147/144: /Users/aditibaheti/Downloads/speechques3/child_3yo/hod/nk3ajaa.wav
+Processing file 57/144: /Users/aditibaheti/Downloads/speechques3/adult_female/head/nafdlel.wav
+Processing file 34/144: /Users/aditibaheti/Downloads/speechques3/adult_male/hud/namphuh.wav
+Processing file 154/144: /Users/aditibaheti/Downloads/speechques3/child_3yo/herd/nk3arer.wav
+Processing file 7/144: /Users/aditibaheti/Downloads/speechques3/adult_male/hawed/namcraw.wav
+Processing file 38/144: /Users/aditibaheti/Downloads/speechques3/adult_female/hod/nafdlaa.wav
+Processing file 175/144: /Users/aditibaheti/Downloads/speechques3/child_3yo/hood/nk3kmul.wav
+Processing file 120/144: /Users/aditibaheti/Downloads/speechques3/child_5yo/herd/nk5mner.wav
+Processing file 179/144: /Users/aditibaheti/Downloads/speechques3/child_3yo/hud/nk3kmuh.wav
+Processing file 83/144: /Users/aditibaheti/Downloads/speechques3/child_7yo/herd/nk7bser.wav
+Processing file 130/144: /Users/aditibaheti/Downloads/speechques3/child_5yo/hid/nk5rfil.wav
+Processing file 86/144: /Users/aditibaheti/Downloads/speechques3/child_7yo/whod/nk7bsuu.wav
+Processing file 21/144: /Users/aditibaheti/Downloads/speechques3/adult_male/head/namphel.wav
+Processing file 20/144: /Users/aditibaheti/Downloads/speechques3/adult_male/head/namcrel.wav
+Processing file 92/144: /Users/aditibaheti/Downloads/speechques3/child_7yo/head/nk7mcel.wav
+Processing file 12/144: /Users/aditibaheti/Downloads/speechques3/adult_male/herd/namcrer.wav
+Processing file 149/144: /Users/aditibaheti/Downloads/speechques3/child_3yo/hayed/nk3ajee.wav
+Processing file 58/144: /Users/aditibaheti/Downloads/speechques3/adult_female/hid/nafshil.wav
+Processing file 15/144: /Users/aditibaheti/Downloads/speechques3/adult_male/whod/namphuu.wav
+Processing file 108/144: /Users/aditibaheti/Downloads/speechques3/child_7yo/hud/nk7bsuh.wav
+Processing file 77/144: /Users/aditibaheti/Downloads/speechques3/child_7yo/hayed/nk7bsee.wav
+Processing file 37/144: /Users/aditibaheti/Downloads/speechques3/adult_female/hod/nafshaa.wav
+Processing file 82/144: /Users/aditibaheti/Downloads/speechques3/child_7yo/herd/nk7mcer.wav
+Processing file 17/144: /Users/aditibaheti/Downloads/speechques3/adult_male/had/namshal.wav
+Processing file 45/144: /Users/aditibaheti/Downloads/speechques3/adult_female/hawed/nafkgaw.wav
+Processing file 13/144: /Users/aditibaheti/Downloads/speechques3/adult_male/whod/namshuu.wav
+Processing file 74/144: /Users/aditibaheti/Downloads/speechques3/child_7yo/hod/nk7mcaa.wav
+Processing file 96/144: /Users/aditibaheti/Downloads/speechques3/child_7yo/hid/nk7bsil.wav
+Processing file 145/144: /Users/aditibaheti/Downloads/speechques3/child_3yo/hod/nk3araa.wav
+Processing file 79/144: /Users/aditibaheti/Downloads/speechques3/child_7yo/hawed/nk7bsaw.wav
+Processing file 23/144: /Users/aditibaheti/Downloads/speechques3/adult_male/hid/namcril.wav
+Processing file 141/144: /Users/aditibaheti/Downloads/speechques3/child_5yo/hood/nk5rful.wav
+Processing file 167/144: /Users/aditibaheti/Downloads/speechques3/child_3yo/hid/nk3kmil.wav
+Processing file 133/144: /Users/aditibaheti/Downloads/speechques3/child_5yo/heed/nk5rfii.wav
+Processing file 48/144: /Users/aditibaheti/Downloads/speechques3/adult_female/herd/nafsher.wav
+Processing file 43/144: /Users/aditibaheti/Downloads/speechques3/adult_female/hawed/nafshaw.wav
+Processing file 180/144: /Users/aditibaheti/Downloads/speechques3/child_3yo/hud/nk3aruh.wav
+Processing file 49/144: /Users/aditibaheti/Downloads/speechques3/adult_female/whod/nafshuu.wav
+Processing file 107/144: /Users/aditibaheti/Downloads/speechques3/child_7yo/hud/nk7mcuh.wav
+Processing file 121/144: /Users/aditibaheti/Downloads/speechques3/child_5yo/whod/nk5rfuu.wav
+Processing file 146/144: /Users/aditibaheti/Downloads/speechques3/child_3yo/hod/nk3kmaa.wav
+Processing file 4/144: /Users/aditibaheti/Downloads/speechques3/adult_male/hayed/namphee.wav
+Processing file 98/144: /Users/aditibaheti/Downloads/speechques3/child_7yo/heed/nk7bsii.wav
+Processing file 168/144: /Users/aditibaheti/Downloads/speechques3/child_3yo/hid/nk3aril.wav
+Processing file 25/144: /Users/aditibaheti/Downloads/speechques3/adult_male/heed/namcrii.wav
+Processing file 119/144: /Users/aditibaheti/Downloads/speechques3/child_5yo/herd/nk5rfer.wav
+Processing file 144/144: /Users/aditibaheti/Downloads/speechques3/child_5yo/hud/nk5mnuh.wav
+Processing file 171/144: /Users/aditibaheti/Downloads/speechques3/child_3yo/heed/nk3arii.wav
+Processing file 93/144: /Users/aditibaheti/Downloads/speechques3/child_7yo/head/nk7bsel.wav
+Processing file 100/144: /Users/aditibaheti/Downloads/speechques3/child_7yo/hoed/nk7mcoo.wav
+Processing file 102/144: /Users/aditibaheti/Downloads/speechques3/child_7yo/hoed/nk7broo.wav
+Processing file 111/144: /Users/aditibaheti/Downloads/speechques3/child_5yo/hod/nk5mgaa.wav
+Processing file 153/144: /Users/aditibaheti/Downloads/speechques3/child_3yo/hawed/nk3ajaw.wav
+Processing file 122/144: /Users/aditibaheti/Downloads/speechques3/child_5yo/whod/nk5mnuu.wav
+Processing file 129/144: /Users/aditibaheti/Downloads/speechques3/child_5yo/head/nk5mgel.wav
+Processing file 169/144: /Users/aditibaheti/Downloads/speechques3/child_3yo/heed/nk3kmii.wav
+Processing file 46/144: /Users/aditibaheti/Downloads/speechques3/adult_female/herd/nafkger.wav
+Extracted features from 144 files
+Extracting features from test set...
+Processing file 85/36: /Users/aditibaheti/Downloads/speechques3/child_7yo/whod/nk7mcuu.wav
+Processing file 172/36: /Users/aditibaheti/Downloads/speechques3/child_3yo/hoed/nk3aroo.wav
+Processing file 39/36: /Users/aditibaheti/Downloads/speechques3/adult_female/hod/nafkgaa.wav
+Processing file 159/36: /Users/aditibaheti/Downloads/speechques3/child_3yo/whod/nk3kmuu.wav
+Processing file 55/36: /Users/aditibaheti/Downloads/speechques3/adult_female/head/nafshel.wav
+Processing file 134/36: /Users/aditibaheti/Downloads/speechques3/child_5yo/heed/nk5mnii.wav
+Processing file 135/36: /Users/aditibaheti/Downloads/speechques3/child_5yo/heed/nk5mgii.wav
+Processing file 41/36: /Users/aditibaheti/Downloads/speechques3/adult_female/hayed/nafdlee.wav
+Processing file 14/36: /Users/aditibaheti/Downloads/speechques3/adult_male/whod/namcruu.wav
+Processing file 51/36: /Users/aditibaheti/Downloads/speechques3/adult_female/whod/nafdluu.wav
+Processing file 151/36: /Users/aditibaheti/Downloads/speechques3/child_3yo/hawed/nk3araw.wav
+Processing file 161/36: /Users/aditibaheti/Downloads/speechques3/child_3yo/had/nk3kmal.wav
+Processing file 131/36: /Users/aditibaheti/Downloads/speechques3/child_5yo/hid/nk5mnil.wav
+Processing file 95/36: /Users/aditibaheti/Downloads/speechques3/child_7yo/hid/nk7mcil.wav
+Processing file 18/36: /Users/aditibaheti/Downloads/speechques3/adult_male/had/namcral.wav
+Processing file 5/36: /Users/aditibaheti/Downloads/speechques3/adult_male/hayed/namshee.wav
+Processing file 65/36: /Users/aditibaheti/Downloads/speechques3/adult_female/hoed/nafkgoo.wav
+Processing file 142/36: /Users/aditibaheti/Downloads/speechques3/child_5yo/hud/nk5mguh.wav
+Processing file 166/36: /Users/aditibaheti/Downloads/speechques3/child_3yo/hid/nk3ajil.wav
+Processing file 19/36: /Users/aditibaheti/Downloads/speechques3/adult_male/head/namshel.wav
+Processing file 104/36: /Users/aditibaheti/Downloads/speechques3/child_7yo/hood/nk7bsul.wav
+Processing file 155/36: /Users/aditibaheti/Downloads/speechques3/child_3yo/herd/nk3ajer.wav
+Processing file 59/36: /Users/aditibaheti/Downloads/speechques3/adult_female/hid/nafkgil.wav
+Processing file 54/36: /Users/aditibaheti/Downloads/speechques3/adult_female/had/nafshal.wav
+Processing file 88/36: /Users/aditibaheti/Downloads/speechques3/child_7yo/had/nk7bral.wav
+Processing file 75/36: /Users/aditibaheti/Downloads/speechques3/child_7yo/hod/nk7braa.wav
+Processing file 137/36: /Users/aditibaheti/Downloads/speechques3/child_5yo/hoed/nk5mnoo.wav
+Processing file 110/36: /Users/aditibaheti/Downloads/speechques3/child_5yo/hod/nk5mnaa.wav
+Processing file 99/36: /Users/aditibaheti/Downloads/speechques3/child_7yo/heed/nk7mcii.wav
+Processing file 28/36: /Users/aditibaheti/Downloads/speechques3/adult_male/hoed/namshoo.wav
+Processing file 68/36: /Users/aditibaheti/Downloads/speechques3/adult_female/hood/nafkgul.wav
+Processing file 148/36: /Users/aditibaheti/Downloads/speechques3/child_3yo/hayed/nk3aree.wav
+Processing file 126/36: /Users/aditibaheti/Downloads/speechques3/child_5yo/had/nk5rfal.wav
+Processing file 91/36: /Users/aditibaheti/Downloads/speechques3/child_7yo/head/nk7brel.wav
+Processing file 24/36: /Users/aditibaheti/Downloads/speechques3/adult_male/hid/namphil.wav
+Processing file 29/36: /Users/aditibaheti/Downloads/speechques3/adult_male/hoed/namcroo.wav
+Extracted features from 36 files
+All outputs have been saved in: /Users/aditibaheti/Desktop/IITJ/Speech/M23CSA001_SpeechMinor/Ques_3
