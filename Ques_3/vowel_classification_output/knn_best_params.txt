@@ -1,0 +1,2 @@
+Best parameters: {'metric': 'manhattan', 'n_neighbors': 13, 'weights': 'distance'}
+Best CV score: 0.2798

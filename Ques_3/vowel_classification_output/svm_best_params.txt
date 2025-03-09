@@ -1,0 +1,2 @@
+Best parameters: {'C': 0.1, 'gamma': 'auto', 'kernel': 'poly'}
+Best CV score: 0.2206
