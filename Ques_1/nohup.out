@@ -1,0 +1,226 @@
+
+Analyzing sample 1: Angry.m4a
+Duration: 6.51 seconds
+Sample rate: 48000 Hz
+Number of samples: 312256
+Maximum amplitude: 0.9169
+Minimum amplitude: 0.0000
+Mean amplitude: 0.0698
+Standard deviation of amplitude: 0.1029
+Mean RMS energy: 0.0843
+Std RMS energy: 0.0914
+Max RMS energy: 0.4604
+Mean fundamental frequency (pitch): 269.59 Hz
+Std fundamental frequency: 61.22 Hz
+Min fundamental frequency: 102.63 Hz
+Max fundamental frequency: 415.30 Hz
+Mean spectral centroid: 3182.22 Hz
+Mean spectral bandwidth: 3511.55 Hz
+Mean spectral flatness: 0.000573
+Mean spectral rolloff: 6416.15 Hz
+Mean zero crossing rate: 0.069770
+Estimated formants: F1: 347.4 Hz, F2: 3589.1 Hz, F3: 8435.8 Hz, F4: 12256.0 Hz
+
+Analyzing sample 2: Authorative.m4a
+Duration: 7.83 seconds
+Sample rate: 48000 Hz
+Number of samples: 375744
+Maximum amplitude: 0.8330
+Minimum amplitude: 0.0000
+Mean amplitude: 0.0815
+Standard deviation of amplitude: 0.1061
+Mean RMS energy: 0.0979
+Std RMS energy: 0.0911
+Max RMS energy: 0.4159
+Mean fundamental frequency (pitch): 248.55 Hz
+Std fundamental frequency: 34.14 Hz
+Min fundamental frequency: 182.87 Hz
+Max fundamental frequency: 378.64 Hz
+Mean spectral centroid: 3326.61 Hz
+Mean spectral bandwidth: 3525.78 Hz
+Mean spectral flatness: 0.000712
+Mean spectral rolloff: 6531.18 Hz
+Mean zero crossing rate: 0.081796
+Estimated formants: F1: 536.6 Hz, F2: 5354.0 Hz, F3: 8986.1 Hz, F4: 12436.5 Hz
+
+Analyzing sample 3: Calm.m4a
+Duration: 7.10 seconds
+Sample rate: 48000 Hz
+Number of samples: 340928
+Maximum amplitude: 0.4176
+Minimum amplitude: 0.0000
+Mean amplitude: 0.0476
+Standard deviation of amplitude: 0.0568
+Mean RMS energy: 0.0578
+Std RMS energy: 0.0463
+Max RMS energy: 0.1974
+Mean fundamental frequency (pitch): 250.55 Hz
+Std fundamental frequency: 41.57 Hz
+Min fundamental frequency: 191.52 Hz
+Max fundamental frequency: 396.55 Hz
+Mean spectral centroid: 3465.94 Hz
+Mean spectral bandwidth: 3658.06 Hz
+Mean spectral flatness: 0.000732
+Mean spectral rolloff: 7074.01 Hz
+Mean zero crossing rate: 0.085454
+Estimated formants: F1: 456.2 Hz, F2: 4690.9 Hz, F3: 8675.6 Hz, F4: 12290.6 Hz
+
+Analyzing sample 4: Curious.m4a
+Duration: 7.66 seconds
+Sample rate: 48000 Hz
+Number of samples: 367552
+Maximum amplitude: 0.9017
+Minimum amplitude: 0.0000
+Mean amplitude: 0.0665
+Standard deviation of amplitude: 0.0817
+Mean RMS energy: 0.0792
+Std RMS energy: 0.0695
+Max RMS energy: 0.4176
+Mean fundamental frequency (pitch): 293.40 Hz
+Std fundamental frequency: 70.14 Hz
+Min fundamental frequency: 65.41 Hz
+Max fundamental frequency: 468.86 Hz
+Mean spectral centroid: 2911.74 Hz
+Mean spectral bandwidth: 3323.78 Hz
+Mean spectral flatness: 0.000514
+Mean spectral rolloff: 5887.58 Hz
+Mean zero crossing rate: 0.063551
+Estimated formants: F1: 532.9 Hz, F2: 4330.1 Hz, F3: 8391.4 Hz, F4: 11775.9 Hz
+
+Analyzing sample 5: Dreamy.m4a
+Duration: 10.00 seconds
+Sample rate: 48000 Hz
+Number of samples: 480192
+Maximum amplitude: 0.8888
+Minimum amplitude: 0.0000
+Mean amplitude: 0.0708
+Standard deviation of amplitude: 0.0916
+Mean RMS energy: 0.0855
+Std RMS energy: 0.0780
+Max RMS energy: 0.4142
+Mean fundamental frequency (pitch): 272.98 Hz
+Std fundamental frequency: 75.19 Hz
+Min fundamental frequency: 65.41 Hz
+Max fundamental frequency: 514.26 Hz
+Mean spectral centroid: 3450.72 Hz
+Mean spectral bandwidth: 3432.64 Hz
+Mean spectral flatness: 0.000574
+Mean spectral rolloff: 6638.66 Hz
+Mean zero crossing rate: 0.090978
+Estimated formants: F1: 537.2 Hz, F2: 5594.2 Hz, F3: 8463.2 Hz, F4: 12032.2 Hz
+
+Analyzing sample 6: Excited.m4a
+Duration: 8.55 seconds
+Sample rate: 48000 Hz
+Number of samples: 410560
+Maximum amplitude: 0.8770
+Minimum amplitude: 0.0000
+Mean amplitude: 0.0673
+Standard deviation of amplitude: 0.0937
+Mean RMS energy: 0.0823
+Std RMS energy: 0.0808
+Max RMS energy: 0.4146
+Mean fundamental frequency (pitch): 255.36 Hz
+Std fundamental frequency: 40.01 Hz
+Min fundamental frequency: 199.42 Hz
+Max fundamental frequency: 385.26 Hz
+Mean spectral centroid: 3330.51 Hz
+Mean spectral bandwidth: 3642.79 Hz
+Mean spectral flatness: 0.000673
+Mean spectral rolloff: 7004.57 Hz
+Mean zero crossing rate: 0.075304
+Estimated formants: F1: 584.8 Hz, F2: 3934.3 Hz, F3: 8609.5 Hz, F4: 12441.9 Hz
+
+Analyzing sample 7: Nostalgic.m4a
+Duration: 7.74 seconds
+Sample rate: 48000 Hz
+Number of samples: 371648
+Maximum amplitude: 0.7549
+Minimum amplitude: 0.0000
+Mean amplitude: 0.0698
+Standard deviation of amplitude: 0.0852
+Mean RMS energy: 0.0838
+Std RMS energy: 0.0714
+Max RMS energy: 0.3565
+Mean fundamental frequency (pitch): 269.74 Hz
+Std fundamental frequency: 68.36 Hz
+Min fundamental frequency: 192.63 Hz
+Max fundamental frequency: 678.57 Hz
+Mean spectral centroid: 3033.64 Hz
+Mean spectral bandwidth: 3497.19 Hz
+Mean spectral flatness: 0.000407
+Mean spectral rolloff: 6540.32 Hz
+Mean zero crossing rate: 0.061696
+Estimated formants: F1: 557.3 Hz, F2: 4641.7 Hz, F3: 8487.2 Hz, F4: 12226.6 Hz
+
+Analyzing sample 8: Sad.m4a
+Duration: 9.66 seconds
+Sample rate: 48000 Hz
+Number of samples: 463808
+Maximum amplitude: 0.4875
+Minimum amplitude: 0.0000
+Mean amplitude: 0.0397
+Standard deviation of amplitude: 0.0504
+Mean RMS energy: 0.0488
+Std RMS energy: 0.0417
+Max RMS energy: 0.1991
+Mean fundamental frequency (pitch): 231.32 Hz
+Std fundamental frequency: 19.31 Hz
+Min fundamental frequency: 200.58 Hz
+Max fundamental frequency: 304.02 Hz
+Mean spectral centroid: 3174.88 Hz
+Mean spectral bandwidth: 3568.82 Hz
+Mean spectral flatness: 0.000624
+Mean spectral rolloff: 6609.74 Hz
+Mean zero crossing rate: 0.075444
+Estimated formants: F1: 468.7 Hz, F2: 4315.4 Hz, F3: 8518.5 Hz, F4: 12204.7 Hz
+
+Analyzing sample 9: Suprised.m4a
+Duration: 7.57 seconds
+Sample rate: 48000 Hz
+Number of samples: 363456
+Maximum amplitude: 0.8894
+Minimum amplitude: 0.0000
+Mean amplitude: 0.0819
+Standard deviation of amplitude: 0.1081
+Mean RMS energy: 0.0979
+Std RMS energy: 0.0938
+Max RMS energy: 0.4568
+Mean fundamental frequency (pitch): 333.71 Hz
+Std fundamental frequency: 74.94 Hz
+Min fundamental frequency: 204.09 Hz
+Max fundamental frequency: 560.81 Hz
+Mean spectral centroid: 2986.08 Hz
+Mean spectral bandwidth: 3384.46 Hz
+Mean spectral flatness: 0.000438
+Mean spectral rolloff: 6024.03 Hz
+Mean zero crossing rate: 0.062701
+Estimated formants: F1: 572.1 Hz, F2: 4606.2 Hz, F3: 8322.1 Hz, F4: 12500.1 Hz
+
+Analyzing sample 10: Worried.m4a
+Duration: 8.02 seconds
+Sample rate: 48000 Hz
+Number of samples: 384960
+Maximum amplitude: 0.5872
+Minimum amplitude: 0.0000
+Mean amplitude: 0.0456
+Standard deviation of amplitude: 0.0569
+Mean RMS energy: 0.0555
+Std RMS energy: 0.0473
+Max RMS energy: 0.2488
+Mean fundamental frequency (pitch): 221.95 Hz
+Std fundamental frequency: 31.27 Hz
+Min fundamental frequency: 104.43 Hz
+Max fundamental frequency: 335.39 Hz
+Mean spectral centroid: 3144.57 Hz
+Mean spectral bandwidth: 3488.17 Hz
+Mean spectral flatness: 0.000535
+Mean spectral rolloff: 6479.10 Hz
+Mean zero crossing rate: 0.072796
+Estimated formants: F1: 526.2 Hz, F2: 5593.3 Hz, F3: 9083.2 Hz, F4: 12644.0 Hz
+
+Analysis completed! Results saved to 'audio_analysis_results.csv'
+
+Analysis complete!
+Visualizations have been saved in the 'plots' directory
+Results are available in 'audio_analysis_results.csv'

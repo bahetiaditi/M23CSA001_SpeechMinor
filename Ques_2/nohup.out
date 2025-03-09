@@ -1,0 +1,59 @@
+=== Analyzing Calm Speech ===
+Loaded audio file: /Users/aditibaheti/Downloads/Speeches of leaders/Indira_Gandhi.mp3
+Duration: 169.58 seconds
+Sample rate: 44100 Hz
+Number of samples: 7478272
+Audio preprocessing completed
+
+=== Analyzing Energetic Speech ===
+Loaded audio file: /Users/aditibaheti/Downloads/Speeches of leaders/Lalu_Yadav.mp3
+Duration: 965.30 seconds
+Sample rate: 44100 Hz
+Number of samples: 42569728
+Audio preprocessing completed
+
+=== Feature Visualizations ===
+Generating feature plots for calm speech...
+Generating feature plots for energetic speech...
+
+=== Feature Comparison ===
+Generating comparison visualizations...
+Generating statistical comparison...
+        Feature  Indira_Gandhi.mp3  ...  Difference  Percent Difference (%)
+0      zcr_mean           0.031408  ...    0.022888               72.874710
+1       zcr_std           0.011979  ...    0.014509              121.121072
+2      ste_mean           0.024937  ...    0.001880                7.538347
+3       ste_std           0.039160  ...   -0.003902               -9.964066
+4    mfcc1_mean        -267.990509  ...   66.474106               24.804649
+5    mfcc2_mean         170.723755  ...  -15.781708               -9.244002
+6    mfcc3_mean          27.741133  ...  -74.947708             -270.168152
+7    mfcc4_mean         -12.236918  ...   33.742706              275.745117
+8    mfcc5_mean         -10.741769  ...    3.345983               31.149271
+9    mfcc6_mean           9.943451  ...  -21.195864             -213.164062
+10   mfcc7_mean           0.262474  ...    2.297413              875.293335
+11   mfcc8_mean          -4.480705  ...   -2.774436              -61.919617
+12   mfcc9_mean         -12.785506  ...   17.821392              139.387451
+13  mfcc10_mean          -0.318397  ...   -7.270064            -2283.329590
+14  mfcc11_mean          -2.381303  ...   -0.584628              -24.550760
+15  mfcc12_mean          -1.837172  ...   -0.138303               -7.528048
+16  mfcc13_mean          -7.793345  ...    2.103557               26.991705
+17    mfcc1_std          30.836967  ...   36.355980              117.897392
+18    mfcc2_std          20.766453  ...    8.591089               41.370037
+19    mfcc3_std          15.708158  ...   23.622078              150.380951
+20    mfcc4_std          16.171774  ...    3.185278               19.696527
+21    mfcc5_std          13.057239  ...    5.806188               44.467194
+22    mfcc6_std           8.053716  ...    7.432004               92.280434
+23    mfcc7_std           9.622837  ...    1.386791               14.411458
+24    mfcc8_std          10.703825  ...    2.298899               21.477356
+25    mfcc9_std           8.491177  ...    2.910058               34.271553
+26   mfcc10_std           7.643624  ...    1.657913               21.690145
+27   mfcc11_std           8.537469  ...    0.705816                8.267278
+28   mfcc12_std           7.660262  ...    1.396313               18.228003
+29   mfcc13_std           6.977922  ...    1.873248               26.845356
+
+[30 rows x 5 columns]
+Generating comparison bar charts...
+
+=== Analysis Complete ===
+Visualizations saved as PNG files.
+Feature comparison saved as 'feature_comparison.csv'.

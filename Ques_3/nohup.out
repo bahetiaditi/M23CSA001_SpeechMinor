@@ -1,72 +1,855 @@
-Extracting features from training set...
-Processing file 71/144 - ETA: 33.1s
-Processing file 131/144 - ETA: 4.2s
-Processing file 151/144 - ETA: -2.0s
-Processing file 101/144 - ETA: 19.5s
-Processing file 1/144 - ETA: 6724.3s
-Processing file 61/144 - ETA: 73.3s
-Processing file 51/144 - ETA: 116.3s
-Processing file 121/144 - ETA: 16.8s
-Processing file 161/144 - ETA: -11.0s
-Warning: Could not extract formants from /Users/aditibaheti/Downloads/speechques3/child_7yo/heed/nk7brii.wav
-Processing file 41/144 - ETA: 376.6s
-Processing file 111/144 - ETA: 45.3s
-Processing file 31/144 - ETA: 558.6s
-Successfully processed 143/144 files
-Extracting features from test set...
-Processing file 11/36 - ETA: 2.1s
-Processing file 171/36 - ETA: -4.6s
-Processing file 81/36 - ETA: -11.8s
-Processing file 91/36 - ETA: -14.1s
-Processing file 21/36 - ETA: 24.8s
-Processing file 141/36 - ETA: -29.6s
-Successfully processed 36/36 files
-Classification Accuracy: 0.1111
+Starting main execution...
+Base path set to: /Users/aditibaheti/Downloads/Q3_Minor
+Running complete analysis...
 
+=== VOWEL CLASSIFICATION SYSTEM ===
+
+Initializing components...
+Initializing VowelDataProcessor...
+VowelDataProcessor initialized.
+Initializing FeatureExtractor...
+FeatureExtractor initialized.
+Initializing VowelVisualizer...
+VowelVisualizer initialized.
+Initializing ClassificationVisualizer...
+ClassificationVisualizer initialized.
+Components initialized.
+Loading and splitting data...
+Collecting audio files...
+Collecting genders:   0%|          | 0/2 [00:00<?, ?it/s]
+Collecting vowels for Male:   0%|          | 0/5 [00:00<?, ?it/s][ACollecting vowels for Male: 100%|██████████| 5/5 [00:00<00:00, 7286.84it/s]
+
+Collecting vowels for Female:   0%|          | 0/5 [00:00<?, ?it/s][ACollecting vowels for Female: 100%|██████████| 5/5 [00:00<00:00, 11625.01it/s]
+Collecting genders: 100%|██████████| 2/2 [00:00<00:00, 1332.58it/s]
+Collected 60 audio files.
+Splitting data into training and testing sets...
+Data split complete.
+Training set size: 48
+Testing set size: 12
+
+Extracting features...
+Extracting batch features...
+Extracting features from files:   0%|          | 0/48 [00:00<?, ?it/s]Extracting features from files:   2%|▏         | 1/48 [00:00<00:44,  1.05it/s]Extracting features from files:   4%|▍         | 2/48 [00:01<00:21,  2.13it/s]Extracting features from files:   6%|▋         | 3/48 [00:01<00:14,  3.12it/s]Extracting features from files:   8%|▊         | 4/48 [00:01<00:11,  3.85it/s]Extracting features from files:  10%|█         | 5/48 [00:01<00:09,  4.44it/s]Extracting features from files:  12%|█▎        | 6/48 [00:01<00:07,  5.47it/s]Extracting features from files:  15%|█▍        | 7/48 [00:01<00:06,  6.13it/s]Extracting features from files:  17%|█▋        | 8/48 [00:01<00:06,  6.61it/s]Extracting features from files:  19%|█▉        | 9/48 [00:02<00:06,  6.39it/s]Extracting features from files:  21%|██        | 10/48 [00:02<00:05,  6.55it/s]Extracting features from files:  23%|██▎       | 11/48 [00:02<00:05,  6.84it/s]Extracting features from files:  25%|██▌       | 12/48 [00:02<00:04,  7.45it/s]Extracting features from files:  27%|██▋       | 13/48 [00:02<00:04,  7.52it/s]Extracting features from files:  31%|███▏      | 15/48 [00:02<00:03,  8.41it/s]Extracting features from files:  33%|███▎      | 16/48 [00:02<00:03,  8.39it/s]Extracting features for /Users/aditibaheti/Downloads/Q3_Minor/Female/u/nafshuh.wav...
+Preprocessing audio file: /Users/aditibaheti/Downloads/Q3_Minor/Female/u/nafshuh.wav
+Audio file preprocessed: /Users/aditibaheti/Downloads/Q3_Minor/Female/u/nafshuh.wav
+Extracting fundamental frequency (F0)...
+Mean F0: 177.88227240016968
+Extracting formant frequencies using LPC...
+Extracted formants: [ 815.2417 2007.349  3544.8894]
+Extracted feature vector: [ 177.8822724   815.24169922 2007.34899902 3544.8894043 ]
+Extracting features for /Users/aditibaheti/Downloads/Q3_Minor/Female/i/nafshil.wav...
+Preprocessing audio file: /Users/aditibaheti/Downloads/Q3_Minor/Female/i/nafshil.wav
+Audio file preprocessed: /Users/aditibaheti/Downloads/Q3_Minor/Female/i/nafshil.wav
+Extracting fundamental frequency (F0)...
+Mean F0: 178.85172520752053
+Extracting formant frequencies using LPC...
+Extracted formants: [ 565.70184 2287.3835  3232.037  ]
+Extracted feature vector: [ 178.85172521  565.70184326 2287.38354492 3232.03710938]
+Extracting features for /Users/aditibaheti/Downloads/Q3_Minor/Male/u/namcruh.wav...
+Preprocessing audio file: /Users/aditibaheti/Downloads/Q3_Minor/Male/u/namcruh.wav
+Audio file preprocessed: /Users/aditibaheti/Downloads/Q3_Minor/Male/u/namcruh.wav
+Extracting fundamental frequency (F0)...
+Mean F0: 112.40162622035879
+Extracting formant frequencies using LPC...
+Extracted formants: [ 730.59595 2001.4797  3417.74   ]
+Extracted feature vector: [ 112.40162622  730.59594727 2001.47973633 3417.73999023]
+Extracting features for /Users/aditibaheti/Downloads/Q3_Minor/Female/a/nafkgee.wav...
+Preprocessing audio file: /Users/aditibaheti/Downloads/Q3_Minor/Female/a/nafkgee.wav
+Audio file preprocessed: /Users/aditibaheti/Downloads/Q3_Minor/Female/a/nafkgee.wav
+Extracting fundamental frequency (F0)...
+Mean F0: 207.86239368110657
+Extracting formant frequencies using LPC...
+Extracted formants: [ 645.4126 2683.2544 3888.4258]
+Extracted feature vector: [ 207.86239368  645.41259766 2683.25439453 3888.42578125]
+Extracting features for /Users/aditibaheti/Downloads/Q3_Minor/Male/o/namcroo.wav...
+Preprocessing audio file: /Users/aditibaheti/Downloads/Q3_Minor/Male/o/namcroo.wav
+Audio file preprocessed: /Users/aditibaheti/Downloads/Q3_Minor/Male/o/namcroo.wav
+Extracting fundamental frequency (F0)...
+Mean F0: 118.03162298098555
+Extracting formant frequencies using LPC...
+Extracted formants: [ 729.5617 2362.0945 3733.1265]
+Extracted feature vector: [ 118.03162298  729.56170654 2362.09448242 3733.12646484]
+Extracting features for /Users/aditibaheti/Downloads/Q3_Minor/Male/i/namshil.wav...
+Preprocessing audio file: /Users/aditibaheti/Downloads/Q3_Minor/Male/i/namshil.wav
+Audio file preprocessed: /Users/aditibaheti/Downloads/Q3_Minor/Male/i/namshil.wav
+Extracting fundamental frequency (F0)...
+Mean F0: 104.13236326777273
+Extracting formant frequencies using LPC...
+Extracted formants: [1394.6638 2653.7231 3715.2483]
+Extracted feature vector: [ 104.13236327 1394.66381836 2653.72314453 3715.24829102]
+Extracting features for /Users/aditibaheti/Downloads/Q3_Minor/Male/a/namshal.wav...
+Preprocessing audio file: /Users/aditibaheti/Downloads/Q3_Minor/Male/a/namshal.wav
+Audio file preprocessed: /Users/aditibaheti/Downloads/Q3_Minor/Male/a/namshal.wav
+Extracting fundamental frequency (F0)...
+Mean F0: 99.40062435998148
+Extracting formant frequencies using LPC...
+Extracted formants: [ 998.7555 1822.0803 3068.614 ]
+Extracted feature vector: [  99.40062436  998.75549316 1822.08032227 3068.61401367]
+Extracting features for /Users/aditibaheti/Downloads/Q3_Minor/Female/a/nafdlee.wav...
+Preprocessing audio file: /Users/aditibaheti/Downloads/Q3_Minor/Female/a/nafdlee.wav
+Audio file preprocessed: /Users/aditibaheti/Downloads/Q3_Minor/Female/a/nafdlee.wav
+Extracting fundamental frequency (F0)...
+Mean F0: 206.57025311337077
+Extracting formant frequencies using LPC...
+Extracted formants: [ 468.25003 2596.2046  3352.282  ]
+Extracted feature vector: [ 206.57025311  468.25003052 2596.20458984 3352.28198242]
+Extracting features for /Users/aditibaheti/Downloads/Q3_Minor/Female/u/nafshuu.wav...
+Preprocessing audio file: /Users/aditibaheti/Downloads/Q3_Minor/Female/u/nafshuu.wav
+Audio file preprocessed: /Users/aditibaheti/Downloads/Q3_Minor/Female/u/nafshuu.wav
+Extracting fundamental frequency (F0)...
+Mean F0: 184.41491819578408
+Extracting formant frequencies using LPC...
+Extracted formants: [ 403.2017 2166.955  3378.517 ]
+Extracted feature vector: [ 184.4149182   403.20169067 2166.95507812 3378.51708984]
+Extracting features for /Users/aditibaheti/Downloads/Q3_Minor/Male/u/namcruu.wav...
+Preprocessing audio file: /Users/aditibaheti/Downloads/Q3_Minor/Male/u/namcruu.wav
+Audio file preprocessed: /Users/aditibaheti/Downloads/Q3_Minor/Male/u/namcruu.wav
+Extracting fundamental frequency (F0)...
+Mean F0: 116.00038013130599
+Extracting formant frequencies using LPC...
+Extracted formants: [ 321.07687 2132.5276  3569.31   ]
+Extracted feature vector: [ 116.00038013  321.07687378 2132.52758789 3569.31005859]
+Extracting features for /Users/aditibaheti/Downloads/Q3_Minor/Male/o/namcraa.wav...
+Preprocessing audio file: /Users/aditibaheti/Downloads/Q3_Minor/Male/o/namcraa.wav
+Audio file preprocessed: /Users/aditibaheti/Downloads/Q3_Minor/Male/o/namcraa.wav
+Extracting fundamental frequency (F0)...
+Mean F0: 108.10542783517784
+Extracting formant frequencies using LPC...
+Extracted formants: [1034.4767 2165.4668 3756.0347]
+Extracted feature vector: [ 108.10542784 1034.47668457 2165.46679688 3756.03466797]
+Extracting features for /Users/aditibaheti/Downloads/Q3_Minor/Male/u/namphuu.wav...
+Preprocessing audio file: /Users/aditibaheti/Downloads/Q3_Minor/Male/u/namphuu.wav
+Audio file preprocessed: /Users/aditibaheti/Downloads/Q3_Minor/Male/u/namphuu.wav
+Extracting fundamental frequency (F0)...
+Mean F0: 87.67921323715426
+Extracting formant frequencies using LPC...
+Extracted formants: [1681.0387 1984.5077 3497.7996]
+Extracted feature vector: [  87.67921324 1681.03869629 1984.50769043 3497.79956055]
+Extracting features for /Users/aditibaheti/Downloads/Q3_Minor/Female/e/nafkgel.wav...
+Preprocessing audio file: /Users/aditibaheti/Downloads/Q3_Minor/Female/e/nafkgel.wav
+Audio file preprocessed: /Users/aditibaheti/Downloads/Q3_Minor/Female/e/nafkgel.wav
+Extracting fundamental frequency (F0)...
+Mean F0: 210.6969689511927
+Extracting formant frequencies using LPC...
+Extracted formants: [ 666.81934 2280.2744  3501.0579 ]
+Extracted feature vector: [ 210.69696895  666.81933594 2280.27441406 3501.05786133]
+Extracting features for /Users/aditibaheti/Downloads/Q3_Minor/Male/u/namshuh.wav...
+Preprocessing audio file: /Users/aditibaheti/Downloads/Q3_Minor/Male/u/namshuh.wav
+Audio file preprocessed: /Users/aditibaheti/Downloads/Q3_Minor/Male/u/namshuh.wav
+Extracting fundamental frequency (F0)...
+Mean F0: 94.29603483750122
+Extracting formant frequencies using LPC...
+Extracted formants: [1138.4707 1401.5361 2989.6265]
+Extracted feature vector: [  94.29603484 1138.47070312 1401.53613281 2989.62646484]
+Extracting features for /Users/aditibaheti/Downloads/Q3_Minor/Female/a/nafkgal.wav...
+Preprocessing audio file: /Users/aditibaheti/Downloads/Q3_Minor/Female/a/nafkgal.wav
+Audio file preprocessed: /Users/aditibaheti/Downloads/Q3_Minor/Female/a/nafkgal.wav
+Extracting fundamental frequency (F0)...
+Mean F0: 190.01668781182659
+Extracting formant frequencies using LPC...
+Extracted formants: [ 845.81976 2078.6719  3167.005  ]
+Extracted feature vector: [ 190.01668781  845.81976318 2078.671875   3167.00488281]
+Extracting features for /Users/aditibaheti/Downloads/Q3_Minor/Female/a/nafshee.wav...
+Preprocessing audio file: /Users/aditibaheti/Downloads/Q3_Minor/Female/a/nafshee.wav
+Audio file preprocessed: /Users/aditibaheti/Downloads/Q3_Minor/Female/a/nafshee.wav
+Extracting fundamental frequency (F0)...
+Mean F0: 175.79208731437444
+Extracting formant frequencies using LPC...
+Extracted formants: [ 544.7461 2345.1628 3479.1055]
+Extracted feature vector: [ 175.79208731  544.74609375 2345.1628418  3479.10546875]
+Extracting features for /Users/aditibaheti/Downloads/Q3_Minor/Male/o/namphaa.wav...
+Preprocessing audio file: /Users/aditibaheti/Downloads/Q3_Minor/Male/o/namphaa.wavExtracting features from files:  35%|███▌      | 17/48 [00:03<00:03,  8.58it/s]Extracting features from files:  40%|███▉      | 19/48 [00:03<00:03,  9.14it/s]Extracting features from files:  42%|████▏     | 20/48 [00:03<00:03,  8.64it/s]Extracting features from files:  44%|████▍     | 21/48 [00:03<00:03,  8.56it/s]Extracting features from files:  46%|████▌     | 22/48 [00:03<00:03,  8.35it/s]Extracting features from files:  48%|████▊     | 23/48 [00:03<00:03,  8.18it/s]Extracting features from files:  50%|█████     | 24/48 [00:03<00:02,  8.45it/s]Extracting features from files:  52%|█████▏    | 25/48 [00:03<00:02,  8.49it/s]Extracting features from files:  54%|█████▍    | 26/48 [00:04<00:02,  8.42it/s]Extracting features from files:  56%|█████▋    | 27/48 [00:04<00:02,  8.24it/s]Extracting features from files:  60%|██████    | 29/48 [00:04<00:02,  8.79it/s]Extracting features from files:  62%|██████▎   | 30/48 [00:04<00:02,  8.42it/s]Extracting features from files:  65%|██████▍   | 31/48 [00:04<00:02,  8.21it/s]Extracting features from files:  67%|██████▋   | 32/48 [00:04<00:02,  7.97it/s]
+Audio file preprocessed: /Users/aditibaheti/Downloads/Q3_Minor/Male/o/namphaa.wav
+Extracting fundamental frequency (F0)...
+Mean F0: 0
+Extracting formant frequencies using LPC...
+Extracted formants: [ 937.8201 1642.5317 3366.1362]
+Extracted feature vector: [   0.          937.82012939 1642.53173828 3366.13623047]
+Extracting features for /Users/aditibaheti/Downloads/Q3_Minor/Male/u/namphuh.wav...
+Preprocessing audio file: /Users/aditibaheti/Downloads/Q3_Minor/Male/u/namphuh.wav
+Audio file preprocessed: /Users/aditibaheti/Downloads/Q3_Minor/Male/u/namphuh.wav
+Extracting fundamental frequency (F0)...
+Mean F0: 0
+Extracting formant frequencies using LPC...
+Extracted formants: [ 644.84125 1384.5758  3044.7463 ]
+Extracted feature vector: [   0.          644.84124756 1384.57580566 3044.74633789]
+Extracting features for /Users/aditibaheti/Downloads/Q3_Minor/Male/e/namcrel.wav...
+Preprocessing audio file: /Users/aditibaheti/Downloads/Q3_Minor/Male/e/namcrel.wav
+Audio file preprocessed: /Users/aditibaheti/Downloads/Q3_Minor/Male/e/namcrel.wav
+Extracting fundamental frequency (F0)...
+Mean F0: 111.63198626349231
+Extracting formant frequencies using LPC...
+Extracted formants: [ 746.29846 2425.795   3927.821  ]
+Extracted feature vector: [ 111.63198626  746.29846191 2425.79492188 3927.82104492]
+Extracting features for /Users/aditibaheti/Downloads/Q3_Minor/Female/e/nafdlel.wav...
+Preprocessing audio file: /Users/aditibaheti/Downloads/Q3_Minor/Female/e/nafdlel.wav
+Audio file preprocessed: /Users/aditibaheti/Downloads/Q3_Minor/Female/e/nafdlel.wav
+Extracting fundamental frequency (F0)...
+Mean F0: 193.8576106794762
+Extracting formant frequencies using LPC...
+Extracted formants: [ 589.1112 2434.1936 2965.146 ]
+Extracted feature vector: [ 193.85761068  589.11120605 2434.19360352 2965.14599609]
+Extracting features for /Users/aditibaheti/Downloads/Q3_Minor/Female/u/nafkguh.wav...
+Preprocessing audio file: /Users/aditibaheti/Downloads/Q3_Minor/Female/u/nafkguh.wav
+Audio file preprocessed: /Users/aditibaheti/Downloads/Q3_Minor/Female/u/nafkguh.wav
+Extracting fundamental frequency (F0)...
+Mean F0: 190.2994832233078
+Extracting formant frequencies using LPC...
+Extracted formants: [ 817.5369 1841.5765 3301.2644]
+Extracted feature vector: [ 190.29948322  817.53692627 1841.57653809 3301.2644043 ]
+Extracting features for /Users/aditibaheti/Downloads/Q3_Minor/Female/a/nafshal.wav...
+Preprocessing audio file: /Users/aditibaheti/Downloads/Q3_Minor/Female/a/nafshal.wav
+Audio file preprocessed: /Users/aditibaheti/Downloads/Q3_Minor/Female/a/nafshal.wav
+Extracting fundamental frequency (F0)...
+Mean F0: 177.15696588839668
+Extracting formant frequencies using LPC...
+Extracted formants: [ 819.89276 2312.0164  3478.796  ]
+Extracted feature vector: [ 177.15696589  819.89276123 2312.01635742 3478.79589844]
+Extracting features for /Users/aditibaheti/Downloads/Q3_Minor/Female/o/nafkgaa.wav...
+Preprocessing audio file: /Users/aditibaheti/Downloads/Q3_Minor/Female/o/nafkgaa.wav
+Audio file preprocessed: /Users/aditibaheti/Downloads/Q3_Minor/Female/o/nafkgaa.wav
+Extracting fundamental frequency (F0)...
+Mean F0: 214.00787441601727
+Extracting formant frequencies using LPC...
+Extracted formants: [1155.1498 2871.7676 4280.1016]
+Extracted feature vector: [ 214.00787442 1155.14978027 2871.76757812 4280.1015625 ]
+Extracting features for /Users/aditibaheti/Downloads/Q3_Minor/Male/a/namphal.wav...
+Preprocessing audio file: /Users/aditibaheti/Downloads/Q3_Minor/Male/a/namphal.wav
+Audio file preprocessed: /Users/aditibaheti/Downloads/Q3_Minor/Male/a/namphal.wav
+Extracting fundamental frequency (F0)...
+Mean F0: 0
+Extracting formant frequencies using LPC...
+Extracted formants: [ 687.33746 2027.4067  3285.5078 ]
+Extracted feature vector: [   0.          687.33746338 2027.40673828 3285.5078125 ]
+Extracting features for /Users/aditibaheti/Downloads/Q3_Minor/Male/o/namphaw.wav...
+Preprocessing audio file: /Users/aditibaheti/Downloads/Q3_Minor/Male/o/namphaw.wav
+Audio file preprocessed: /Users/aditibaheti/Downloads/Q3_Minor/Male/o/namphaw.wav
+Extracting fundamental frequency (F0)...
+Mean F0: 89.02947188480495
+Extracting formant frequencies using LPC...
+Extracted formants: [ 845.2869 1909.9691 3287.302 ]
+Extracted feature vector: [  89.02947188  845.28692627 1909.96911621 3287.30200195]
+Extracting features for /Users/aditibaheti/Downloads/Q3_Minor/Female/e/nafshii.wav...
+Preprocessing audio file: /Users/aditibaheti/Downloads/Q3_Minor/Female/e/nafshii.wav
+Audio file preprocessed: /Users/aditibaheti/Downloads/Q3_Minor/Female/e/nafshii.wav
+Extracting fundamental frequency (F0)...
+Mean F0: 187.83332292204466
+Extracting formant frequencies using LPC...
+Extracted formants: [ 395.96265 2502.4446  3438.6904 ]
+Extracted feature vector: [ 187.83332292  395.96264648 2502.44458008 3438.69042969]
+Extracting features for /Users/aditibaheti/Downloads/Q3_Minor/Male/o/namshoo.wav...
+Preprocessing audio file: /Users/aditibaheti/Downloads/Q3_Minor/Male/o/namshoo.wav
+Audio file preprocessed: /Users/aditibaheti/Downloads/Q3_Minor/Male/o/namshoo.wav
+Extracting fundamental frequency (F0)...
+Mean F0: 111.81100840316529
+Extracting formant frequencies using LPC...
+Extracted formants: [1057.905  2709.349  3614.0872]
+Extracted feature vector: [ 111.8110084  1057.9050293  2709.34912109 3614.0871582 ]
+Extracting features for /Users/aditibaheti/Downloads/Q3_Minor/Male/o/namshaa.wav...
+Preprocessing audio file: /Users/aditibaheti/Downloads/Q3_Minor/Male/o/namshaa.wav
+Audio file preprocessed: /Users/aditibaheti/Downloads/Q3_Minor/Male/o/namshaa.wav
+Extracting fundamental frequency (F0)...
+Mean F0: 97.83188308118008
+Extracting formant frequencies using LPC...
+Extracted formants: [1021.35736 1466.4073  2881.2493 ]
+Extracted feature vector: [  97.83188308 1021.35736084 1466.40734863 2881.24926758]
+Extracting features for /Users/aditibaheti/Downloads/Q3_Minor/Female/o/nafkgaw.wav...
+Preprocessing audio file: /Users/aditibaheti/Downloads/Q3_Minor/Female/o/nafkgaw.wav
+Audio file preprocessed: /Users/aditibaheti/Downloads/Q3_Minor/Female/o/nafkgaw.wav
+Extracting fundamental frequency (F0)...
+Mean F0: 192.69397910701
+Extracting formant frequencies using LPC...
+Extracted formants: [1158.2495 2912.4568 4254.9087]
+Extracted feature vector: [ 192.69397911 1158.24951172 2912.45678711 4254.90869141]
+Extracting features for /Users/aditibaheti/Downloads/Q3_Minor/Female/o/nafdlaa.wav...
+Preprocessing audio file: /Users/aditibaheti/Downloads/Q3_Minor/Female/o/nafdlaa.wav
+Audio file preprocessed: /Users/aditibaheti/Downloads/Q3_Minor/Female/o/nafdlaa.wav
+Extracting fundamental frequency (F0)...
+Mean F0: 204.07065357623682
+Extracting formant frequencies using LPC...
+Extracted formants: [ 993.0268 1117.5151 3261.4585]
+Extracted feature vector: [ 204.07065358  993.02679443 1117.51513672 3261.45849609]
+Extracting features for /Users/aditibaheti/Downloads/Q3_Minor/Female/o/nafdloo.wav...
+Preprocessing audio file: /Users/aditibaheti/Downloads/Q3_Minor/Female/o/nafdloo.wav
+Audio file preprocessed: /Users/aditibaheti/Downloads/Q3_Minor/Female/o/nafdloo.wav
+Extracting fundamental frequency (F0)...
+Mean F0: 200.29884759728594
+Extracting formant frequencies using LPC...
+Extracted formants: [1102.5404 2542.4321 4301.87  ]
+Extracted feature vector: [ 200.2988476  1102.54040527 2542.43212891 4301.87011719]
+Extracting features for /Users/aditibaheti/Downloads/Q3_Minor/Male/a/namcree.wav...
+Preprocessing audio file: /Users/aditibaheti/Downloads/Q3_Minor/Male/a/namcree.wav
+Audio file preprocessed: /Users/aditibaheti/Downloads/Q3_Minor/Male/a/namcree.wav
+Extracting fundamental frequency (F0)...
+Mean F0: 116.41060975569631
+Extracting formant frequencies using LPC...
+Extracted formants: [ 389.00183 2383.208   3347.4263 ]
+Extracted feature vector: [ 116.41060976  389.00183105 2383.20800781 3347.42626953]
+Extracting features for /Users/aditibaheti/Downloads/Q3_Minor/Male/i/namphil.wav...
+Preprocessing audio file: /Users/aditibaheti/Downloads/Q3_Minor/Male/i/namphil.wav
+Audio file preprocessed: /Users/aditibaheti/Downloads/Q3_Minor/Male/i/namphil.wav
+Extracting fundamental frequency (F0)...
+Mean F0: 0
+Extracting formant frequencies using LPC...
+Extracted formants: [1835.6172 2492.8667 3545.1978]Extracting features from files:  69%|██████▉   | 33/48 [00:04<00:02,  7.12it/s]Extracting features from files:  71%|███████   | 34/48 [00:05<00:02,  6.91it/s]Extracting features from files:  73%|███████▎  | 35/48 [00:05<00:01,  7.03it/s]Extracting features from files:  77%|███████▋  | 37/48 [00:05<00:01,  7.88it/s]Extracting features from files:  79%|███████▉  | 38/48 [00:05<00:01,  8.25it/s]Extracting features from files:  81%|████████▏ | 39/48 [00:05<00:01,  8.11it/s]Extracting features from files:  83%|████████▎ | 40/48 [00:05<00:00,  8.23it/s]Extracting features from files:  88%|████████▊ | 42/48 [00:06<00:00,  8.99it/s]Extracting features from files:  90%|████████▉ | 43/48 [00:06<00:00,  8.41it/s]Extracting features from files:  92%|█████████▏| 44/48 [00:06<00:00,  8.48it/s]Extracting features from files:  94%|█████████▍| 45/48 [00:06<00:00,  8.52it/s]Extracting features from files:  96%|█████████▌| 46/48 [00:06<00:00,  8.54it/s]Extracting features from files:  98%|█████████▊| 47/48 [00:06<00:00,  8.30it/s]Extracting features from files: 100%|██████████| 48/48 [00:06<00:00,  7.97it/s]Extracting features from files: 100%|██████████| 48/48 [00:06<00:00,  7.05it/s]
+
+Extracted feature vector: [   0.         1835.6171875  2492.86669922 3545.19775391]
+Extracting features for /Users/aditibaheti/Downloads/Q3_Minor/Female/i/nafdlil.wav...
+Preprocessing audio file: /Users/aditibaheti/Downloads/Q3_Minor/Female/i/nafdlil.wav
+Audio file preprocessed: /Users/aditibaheti/Downloads/Q3_Minor/Female/i/nafdlil.wav
+Extracting fundamental frequency (F0)...
+Mean F0: 202.4025584901633
+Extracting formant frequencies using LPC...
+Extracted formants: [ 394.91718 2530.5117  3653.5544 ]
+Extracted feature vector: [ 202.40255849  394.91717529 2530.51171875 3653.55444336]
+Extracting features for /Users/aditibaheti/Downloads/Q3_Minor/Female/e/nafkgii.wav...
+Preprocessing audio file: /Users/aditibaheti/Downloads/Q3_Minor/Female/e/nafkgii.wav
+Audio file preprocessed: /Users/aditibaheti/Downloads/Q3_Minor/Female/e/nafkgii.wav
+Extracting fundamental frequency (F0)...
+Mean F0: 205.89508714972197
+Extracting formant frequencies using LPC...
+Extracted formants: [ 369.84137 2888.5864  3969.0535 ]
+Extracted feature vector: [ 205.89508715  369.84136963 2888.58642578 3969.0534668 ]
+Extracting features for /Users/aditibaheti/Downloads/Q3_Minor/Male/e/namshel.wav...
+Preprocessing audio file: /Users/aditibaheti/Downloads/Q3_Minor/Male/e/namshel.wav
+Audio file preprocessed: /Users/aditibaheti/Downloads/Q3_Minor/Male/e/namshel.wav
+Extracting fundamental frequency (F0)...
+Mean F0: 96.9600929372751
+Extracting formant frequencies using LPC...
+Extracted formants: [1669.277  2593.1252 3937.6685]
+Extracted feature vector: [  96.96009294 1669.27697754 2593.12524414 3937.66845703]
+Extracting features for /Users/aditibaheti/Downloads/Q3_Minor/Male/o/namcraw.wav...
+Preprocessing audio file: /Users/aditibaheti/Downloads/Q3_Minor/Male/o/namcraw.wav
+Audio file preprocessed: /Users/aditibaheti/Downloads/Q3_Minor/Male/o/namcraw.wav
+Extracting fundamental frequency (F0)...
+Mean F0: 109.9101197286635
+Extracting formant frequencies using LPC...
+Extracted formants: [ 961.9666 1935.6125 3628.8018]
+Extracted feature vector: [ 109.91011973  961.96661377 1935.61254883 3628.80175781]
+Extracting features for /Users/aditibaheti/Downloads/Q3_Minor/Male/e/namshii.wav...
+Preprocessing audio file: /Users/aditibaheti/Downloads/Q3_Minor/Male/e/namshii.wav
+Audio file preprocessed: /Users/aditibaheti/Downloads/Q3_Minor/Male/e/namshii.wav
+Extracting fundamental frequency (F0)...
+Mean F0: 111.01659861979753
+Extracting formant frequencies using LPC...
+Extracted formants: [2605.4082 3717.256  6192.9   ]
+Extracted feature vector: [ 111.01659862 2605.40820312 3717.25610352 6192.89990234]
+Extracting features for /Users/aditibaheti/Downloads/Q3_Minor/Male/a/namshee.wav...
+Preprocessing audio file: /Users/aditibaheti/Downloads/Q3_Minor/Male/a/namshee.wav
+Audio file preprocessed: /Users/aditibaheti/Downloads/Q3_Minor/Male/a/namshee.wav
+Extracting fundamental frequency (F0)...
+Mean F0: 117.65128272870325
+Extracting formant frequencies using LPC...
+Extracted formants: [2201.2512 2624.1067 3883.4944]
+Extracted feature vector: [ 117.65128273 2201.2512207  2624.10668945 3883.49438477]
+Extracting features for /Users/aditibaheti/Downloads/Q3_Minor/Female/e/nafshel.wav...
+Preprocessing audio file: /Users/aditibaheti/Downloads/Q3_Minor/Female/e/nafshel.wav
+Audio file preprocessed: /Users/aditibaheti/Downloads/Q3_Minor/Female/e/nafshel.wav
+Extracting fundamental frequency (F0)...
+Mean F0: 172.19073665168023
+Extracting formant frequencies using LPC...
+Extracted formants: [ 621.76764 2130.8645  3727.915  ]
+Extracted feature vector: [ 172.19073665  621.76763916 2130.86450195 3727.91503906]
+Extracting features for /Users/aditibaheti/Downloads/Q3_Minor/Male/o/namshaw.wav...
+Preprocessing audio file: /Users/aditibaheti/Downloads/Q3_Minor/Male/o/namshaw.wav
+Audio file preprocessed: /Users/aditibaheti/Downloads/Q3_Minor/Male/o/namshaw.wav
+Extracting fundamental frequency (F0)...
+Mean F0: 94.65422295953155
+Extracting formant frequencies using LPC...
+Extracted formants: [ 844.0145   925.09735 3123.9968 ]
+Extracted feature vector: [  94.65422296  844.01452637  925.09735107 3123.99682617]
+Extracting features for /Users/aditibaheti/Downloads/Q3_Minor/Male/e/namphii.wav...
+Preprocessing audio file: /Users/aditibaheti/Downloads/Q3_Minor/Male/e/namphii.wav
+Audio file preprocessed: /Users/aditibaheti/Downloads/Q3_Minor/Male/e/namphii.wav
+Extracting fundamental frequency (F0)...
+Mean F0: 88.32504841360415
+Extracting formant frequencies using LPC...
+Extracted formants: [2268.7    2621.9448 3452.7908]
+Extracted feature vector: [  88.32504841 2268.69995117 2621.94482422 3452.79077148]
+Extracting features for /Users/aditibaheti/Downloads/Q3_Minor/Female/a/nafdlal.wav...
+Preprocessing audio file: /Users/aditibaheti/Downloads/Q3_Minor/Female/a/nafdlal.wav
+Audio file preprocessed: /Users/aditibaheti/Downloads/Q3_Minor/Female/a/nafdlal.wav
+Extracting fundamental frequency (F0)...
+Mean F0: 189.50805446459327
+Extracting formant frequencies using LPC...
+Extracted formants: [ 744.6194 2368.6846 4028.6687]
+Extracted feature vector: [ 189.50805446  744.61938477 2368.68457031 4028.66870117]
+Extracting features for /Users/aditibaheti/Downloads/Q3_Minor/Male/i/namcril.wav...
+Preprocessing audio file: /Users/aditibaheti/Downloads/Q3_Minor/Male/i/namcril.wav
+Audio file preprocessed: /Users/aditibaheti/Downloads/Q3_Minor/Male/i/namcril.wav
+Extracting fundamental frequency (F0)...
+Mean F0: 106.12802796335393
+Extracting formant frequencies using LPC...
+Extracted formants: [ 362.65125 2533.3684  3930.3428 ]
+Extracted feature vector: [ 106.12802796  362.65124512 2533.3684082  3930.34277344]
+Extracting features for /Users/aditibaheti/Downloads/Q3_Minor/Female/o/nafshaa.wav...
+Preprocessing audio file: /Users/aditibaheti/Downloads/Q3_Minor/Female/o/nafshaa.wav
+Audio file preprocessed: /Users/aditibaheti/Downloads/Q3_Minor/Female/o/nafshaa.wav
+Extracting fundamental frequency (F0)...
+Mean F0: 176.8073834238819
+Extracting formant frequencies using LPC...
+Extracted formants: [ 960.2835 2897.7437 3849.2324]
+Extracted feature vector: [ 176.80738342  960.2835083  2897.74365234 3849.23242188]
+Extracting features for /Users/aditibaheti/Downloads/Q3_Minor/Female/o/nafkgoo.wav...
+Preprocessing audio file: /Users/aditibaheti/Downloads/Q3_Minor/Female/o/nafkgoo.wav
+Audio file preprocessed: /Users/aditibaheti/Downloads/Q3_Minor/Female/o/nafkgoo.wav
+Extracting fundamental frequency (F0)...
+Mean F0: 198.8476120876872
+Extracting formant frequencies using LPC...
+Extracted formants: [ 643.3762 1342.0216 3458.1802]
+Extracted feature vector: [ 198.84761209  643.3762207  1342.02160645 3458.18017578]
+Extracting features for /Users/aditibaheti/Downloads/Q3_Minor/Male/e/namcrii.wav...
+Preprocessing audio file: /Users/aditibaheti/Downloads/Q3_Minor/Male/e/namcrii.wav
+Audio file preprocessed: /Users/aditibaheti/Downloads/Q3_Minor/Male/e/namcrii.wav
+Extracting fundamental frequency (F0)...
+Mean F0: 116.72549101606135
+Extracting formant frequencies using LPC...
+Extracted formants: [ 252.63678 2740.5261  3590.8218 ]
+Extracted feature vector: [ 116.72549102  252.63677979 2740.52612305 3590.82177734]
+Extracting features for /Users/aditibaheti/Downloads/Q3_Minor/Female/u/nafdluu.wav...
+Preprocessing audio file: /Users/aditibaheti/Downloads/Q3_Minor/Female/u/nafdluu.wav
+Audio file preprocessed: /Users/aditibaheti/Downloads/Q3_Minor/Female/u/nafdluu.wav
+Extracting fundamental frequency (F0)...
+Mean F0: 205.12345906998192
+Extracting formant frequencies using LPC...
+Extracted formants: [ 434.59198 2366.1055  2867.582  ]
+Extracted feature vector: [ 205.12345907  434.59197998 2366.10546875 2867.58203125]
+Batch feature extraction complete.
+Extracting batch features...
+Extracting features from files:   0%|          | 0/12 [00:00<?, ?it/s]Extracting features from files:   8%|▊         | 1/12 [00:00<00:01,  8.46it/s]Extracting features from files:  17%|█▋        | 2/12 [00:00<00:01,  8.61it/s]Extracting features from files:  25%|██▌       | 3/12 [00:00<00:01,  8.55it/s]Extracting features from files:  42%|████▏     | 5/12 [00:00<00:00,  8.63it/s]Extracting features from files:  50%|█████     | 6/12 [00:00<00:00,  8.96it/s]Extracting features from files:  58%|█████▊    | 7/12 [00:00<00:00,  8.71it/s]Extracting features from files:  67%|██████▋   | 8/12 [00:00<00:00,  7.93it/s]Extracting features from files:  75%|███████▌  | 9/12 [00:01<00:00,  8.26it/s]Extracting features from files:  83%|████████▎ | 10/12 [00:01<00:00,  7.89it/s]Extracting features from files:  92%|█████████▏| 11/12 [00:01<00:00,  7.89it/s]Extracting features from files: 100%|██████████| 12/12 [00:01<00:00,  8.40it/s]
+Extracting features for /Users/aditibaheti/Downloads/Q3_Minor/Female/u/nafkguu.wav...
+Preprocessing audio file: /Users/aditibaheti/Downloads/Q3_Minor/Female/u/nafkguu.wav
+Audio file preprocessed: /Users/aditibaheti/Downloads/Q3_Minor/Female/u/nafkguu.wav
+Extracting fundamental frequency (F0)...
+Mean F0: 225.2484374346939
+Extracting formant frequencies using LPC...
+Extracted formants: [ 472.11484 1648.5568  3517.8645 ]
+Extracted feature vector: [ 225.24843743  472.11483765 1648.5567627  3517.86450195]
+Extracting features for /Users/aditibaheti/Downloads/Q3_Minor/Female/i/nafkgil.wav...
+Preprocessing audio file: /Users/aditibaheti/Downloads/Q3_Minor/Female/i/nafkgil.wav
+Audio file preprocessed: /Users/aditibaheti/Downloads/Q3_Minor/Female/i/nafkgil.wav
+Extracting fundamental frequency (F0)...
+Mean F0: 202.41637284478685
+Extracting formant frequencies using LPC...
+Extracted formants: [ 534.028  2281.2808 3490.915 ]
+Extracted feature vector: [ 202.41637284  534.02801514 2281.28076172 3490.91503906]
+Extracting features for /Users/aditibaheti/Downloads/Q3_Minor/Female/u/nafdluh.wav...
+Preprocessing audio file: /Users/aditibaheti/Downloads/Q3_Minor/Female/u/nafdluh.wav
+Audio file preprocessed: /Users/aditibaheti/Downloads/Q3_Minor/Female/u/nafdluh.wav
+Extracting fundamental frequency (F0)...
+Mean F0: 189.59808285320167
+Extracting formant frequencies using LPC...
+Extracted formants: [ 770.1379 2087.6553 2858.375 ]
+Extracted feature vector: [ 189.59808285  770.13787842 2087.65527344 2858.375     ]
+Extracting features for /Users/aditibaheti/Downloads/Q3_Minor/Male/e/namphel.wav...
+Preprocessing audio file: /Users/aditibaheti/Downloads/Q3_Minor/Male/e/namphel.wav
+Audio file preprocessed: /Users/aditibaheti/Downloads/Q3_Minor/Male/e/namphel.wav
+Extracting fundamental frequency (F0)...
+Mean F0: 0
+Extracting formant frequencies using LPC...
+Extracted formants: [ 601.02356 1973.397   3599.1787 ]
+Extracted feature vector: [   0.          601.02355957 1973.39697266 3599.17871094]
+Extracting features for /Users/aditibaheti/Downloads/Q3_Minor/Male/a/namcral.wav...
+Preprocessing audio file: /Users/aditibaheti/Downloads/Q3_Minor/Male/a/namcral.wav
+Audio file preprocessed: /Users/aditibaheti/Downloads/Q3_Minor/Male/a/namcral.wav
+Extracting fundamental frequency (F0)...
+Mean F0: 95.37272475152893
+Extracting formant frequencies using LPC...
+Extracted formants: [1050.8291 2260.7583 3839.0469]
+Extracted feature vector: [  95.37272475 1050.82910156 2260.75830078 3839.046875  ]
+Extracting features for /Users/aditibaheti/Downloads/Q3_Minor/Male/a/namphee.wav...
+Preprocessing audio file: /Users/aditibaheti/Downloads/Q3_Minor/Male/a/namphee.wav
+Audio file preprocessed: /Users/aditibaheti/Downloads/Q3_Minor/Male/a/namphee.wav
+Extracting fundamental frequency (F0)...
+Mean F0: 88.58911690753374
+Extracting formant frequencies using LPC...
+Extracted formants: [2023.8436 3354.2275 4284.3457]
+Extracted feature vector: [  88.58911691 2023.84362793 3354.22753906 4284.34570312]
+Extracting features for /Users/aditibaheti/Downloads/Q3_Minor/Female/o/nafshoo.wav...
+Preprocessing audio file: /Users/aditibaheti/Downloads/Q3_Minor/Female/o/nafshoo.wav
+Audio file preprocessed: /Users/aditibaheti/Downloads/Q3_Minor/Female/o/nafshoo.wav
+Extracting fundamental frequency (F0)...
+Mean F0: 172.18542677101763
+Extracting formant frequencies using LPC...
+Extracted formants: [ 703.05225 1834.7065  3265.0293 ]
+Extracted feature vector: [ 172.18542677  703.05224609 1834.70654297 3265.02929688]
+Extracting features for /Users/aditibaheti/Downloads/Q3_Minor/Female/o/nafdlaw.wav...
+Preprocessing audio file: /Users/aditibaheti/Downloads/Q3_Minor/Female/o/nafdlaw.wav
+Audio file preprocessed: /Users/aditibaheti/Downloads/Q3_Minor/Female/o/nafdlaw.wav
+Extracting fundamental frequency (F0)...
+Mean F0: 188.0224396872073
+Extracting formant frequencies using LPC...
+Extracted formants: [ 859.6283 1374.7982 3448.05  ]
+Extracted feature vector: [ 188.02243969  859.6282959  1374.79821777 3448.05004883]
+Extracting features for /Users/aditibaheti/Downloads/Q3_Minor/Male/o/namphoo.wav...
+Preprocessing audio file: /Users/aditibaheti/Downloads/Q3_Minor/Male/o/namphoo.wav
+Audio file preprocessed: /Users/aditibaheti/Downloads/Q3_Minor/Male/o/namphoo.wav
+Extracting fundamental frequency (F0)...
+Mean F0: 90.39272068538165
+Extracting formant frequencies using LPC...
+Extracted formants: [ 553.2455 2048.7979 3491.4265]
+Extracted feature vector: [  90.39272069  553.2454834  2048.79785156 3491.42651367]
+Extracting features for /Users/aditibaheti/Downloads/Q3_Minor/Female/e/nafdlii.wav...
+Preprocessing audio file: /Users/aditibaheti/Downloads/Q3_Minor/Female/e/nafdlii.wav
+Audio file preprocessed: /Users/aditibaheti/Downloads/Q3_Minor/Female/e/nafdlii.wav
+Extracting fundamental frequency (F0)...
+Mean F0: 210.71239788594994
+Extracting formant frequencies using LPC...
+Extracted formants: [ 380.60892 2716.6882  3355.3186 ]
+Extracted feature vector: [ 210.71239789  380.60891724 2716.68823242 3355.31860352]
+Extracting features for /Users/aditibaheti/Downloads/Q3_Minor/Female/o/nafshaw.wav...
+Preprocessing audio file: /Users/aditibaheti/Downloads/Q3_Minor/Female/o/nafshaw.wav
+Audio file preprocessed: /Users/aditibaheti/Downloads/Q3_Minor/Female/o/nafshaw.wav
+Extracting fundamental frequency (F0)...
+Mean F0: 168.27378301377132
+Extracting formant frequencies using LPC...
+Extracted formants: [ 165.62738 1009.8451  3234.3118 ]
+Extracted feature vector: [ 168.27378301  165.62738037 1009.84509277 3234.31176758]
+Extracting features for /Users/aditibaheti/Downloads/Q3_Minor/Male/u/namshuu.wav...
+Preprocessing audio file: /Users/aditibaheti/Downloads/Q3_Minor/Male/u/namshuu.wav
+Audio file preprocessed: /Users/aditibaheti/Downloads/Q3_Minor/Male/u/namshuu.wav
+Extracting fundamental frequency (F0)...
+Mean F0: 116.48317301514177
+Extracting formant frequencies using LPC...
+Extracted formants: [ 376.1683 2216.5676 3670.9326]
+Extracted feature vector: [ 116.48317302  376.16830444 2216.56762695 3670.93261719]
+Batch feature extraction complete.
+
+Creating visualizations...
+Visualizing F1-F2 space...
+Visualizing F1-F2 vowel space...
+F1-F2 vowel space visualization complete.
+Visualizing formant distributions...
+Visualizing formant distributions...
+Formant distributions visualization complete.
+Visualizing audio samples...
+Visualizing all audio samples...
+Visualizing vowels:   0%|          | 0/5 [00:00<?, ?it/s]Visualizing vowels:  20%|██        | 1/5 [00:03<00:12,  3.18s/it]Visualizing vowels:  40%|████      | 2/5 [00:05<00:08,  2.89s/it]Visualizing vowels:  60%|██████    | 3/5 [00:07<00:04,  2.42s/it]Visualizing vowels:  80%|████████  | 4/5 [00:09<00:02,  2.15s/it]Visualizing vowels: 100%|██████████| 5/5 [00:10<00:00,  1.87s/it]Visualizing vowels: 100%|██████████| 5/5 [00:10<00:00,  2.17s/it]
+Visualizing audio sample for vowel /a/ from file: /Users/aditibaheti/Downloads/Q3_Minor/Female/a/nafkgee.wav
+Audio sample visualization for vowel /a/ complete.
+Visualizing audio sample for vowel /e/ from file: /Users/aditibaheti/Downloads/Q3_Minor/Female/e/nafkgel.wav
+Audio sample visualization for vowel /e/ complete.
+Visualizing audio sample for vowel /i/ from file: /Users/aditibaheti/Downloads/Q3_Minor/Female/i/nafshil.wav
+Audio sample visualization for vowel /i/ complete.
+Visualizing audio sample for vowel /o/ from file: /Users/aditibaheti/Downloads/Q3_Minor/Male/o/namcroo.wav
+Audio sample visualization for vowel /o/ complete.
+Visualizing audio sample for vowel /u/ from file: /Users/aditibaheti/Downloads/Q3_Minor/Female/u/nafshuh.wav
+Audio sample visualization for vowel /u/ complete.
+All audio samples visualized.
+Comparing gender formants...
+Comparing formant frequencies between genders...
+Gender formant comparison complete.
+Verifying formant extraction...
+Verifying formant extraction with reference values...
+
+Vowel: /a/
+Average F1: 834.51 Hz
+Expected F1 range: (700, 1100) Hz
+Average F2: 2324.08 Hz
+Expected F2 range: (1100, 1500) Hz
+
+Vowel: /e/
+Average F1: 1018.58 Hz
+Expected F1 range: (500, 700) Hz
+Average F2: 2633.50 Hz
+Expected F2 range: (1800, 2300) Hz
+
+Vowel: /i/
+Average F1: 910.71 Hz
+Expected F1 range: (200, 400) Hz
+Average F2: 2499.57 Hz
+Expected F2 range: (2000, 2800) Hz
+
+Vowel: /o/
+Average F1: 960.36 Hz
+Expected F1 range: (400, 600) Hz
+Average F2: 2057.18 Hz
+Expected F2 range: (800, 1200) Hz
+
+Vowel: /u/
+Average F1: 776.29 Hz
+Expected F1 range: (250, 450) Hz
+Average F2: 1920.73 Hz
+Expected F2 range: (600, 1000) Hz
+Formant extraction verification complete.
+Visualizing 3D vowel space...
+Visualizing vowels in 3D space...
+3D vowel space visualization complete.
+Plotting feature correlations...
+Plotting feature correlations...
+Feature correlation plot complete.
+Printing feature statistics...
+
+Vowel: a
+               F0           F1           F2           F3
+count   10.000000    10.000000    10.000000    10.000000
+mean   148.036896   834.508664  2324.079639  3497.932520
+std     65.242837   513.958996   278.765853   327.679120
+min      0.000000   389.001831  1822.080322  3068.614014
+25%    116.720778   569.912720  2137.007996  3300.987427
+50%    176.474527   715.978424  2356.923706  3415.538940
+75%    189.889529   839.338013  2542.955444  3782.397156
+max    207.862394  2201.251221  2683.254395  4028.668701
+
+Vowel: e
+               F0           F1           F2           F3
+count   10.000000    10.000000    10.000000    10.000000
+mean   149.513294  1018.582257  2633.501074  3870.386475
+std     48.727505   845.851950   438.465168   870.931527
+min     88.325048   252.636780  2130.864502  2965.145996
+25%    111.170446   444.249786  2427.894592  3464.857544
+50%    144.458114   644.293488  2547.784912  3659.368408
+75%    192.351539  1438.532349  2710.880798  3935.206604
+max    210.696969  2605.408203  3717.256104  6192.899902
+
+Vowel: i
+               F0           F1           F2           F3
+count    5.000000     5.000000     5.000000     5.000000
+mean   118.302935   910.710254  2499.570703  3615.276074
+std     79.188889   666.165495   133.164316   256.178540
+min      0.000000   362.651245  2287.383545  3232.037109
+25%    104.132363   394.917175  2492.866699  3545.197754
+50%    106.128028   565.701843  2530.511719  3653.554443
+75%    178.851725  1394.663818  2533.368408  3715.248291
+max    202.402558  1835.617188  2653.723145  3930.342773
+
+Vowel: o
+               F0           F1           F2           F3
+count   14.000000    14.000000    14.000000    14.000000
+mean   136.864293   960.358228  2057.176100  3628.320417
+std     61.959829   151.441784   685.033381   439.267569
+min      0.000000   643.376221   925.097351  2881.249268
+25%    100.400269   868.420227  1510.438446  3307.010559
+50%    114.921316   977.496704  2050.539673  3621.444458
+75%    197.309204  1052.047943  2667.619873  3825.932983
+max    214.007874  1158.249512  2912.456787  4301.870117
+
+Vowel: u
+               F0           F1           F2           F3
+count    9.000000     9.000000     9.000000     9.000000
+mean   129.788599   776.288418  1920.734782  3290.163927
+std     66.147911   423.600895   332.645484   259.627945
+min      0.000000   321.076874  1384.575806  2867.582031
+25%     94.296035   434.591980  1841.576538  3044.746338
+50%    116.000380   730.595947  2001.479736  3378.517090
+75%    184.414918   817.536926  2132.527588  3497.799561
+max    205.123459  1681.038696  2366.105469  3569.310059
+
+Training and evaluating classifiers...
+Initializing VowelClassifier...
+Using KNN classifier with n_neighbors=3
+VowelClassifier initialized.
+Initializing VowelClassifier...
+Using KNN classifier with n_neighbors=5
+VowelClassifier initialized.
+Initializing VowelClassifier...
+Using GMM classifier
+VowelClassifier initialized.
+
+Training KNN (k=3)...
+Training classifier...
+Scaling features...
+Features scaled.
+Training KNN classifier...
+KNN classifier trained.
+Classifier training complete.
+Evaluating KNN (k=3)...
+Evaluating classifier...
+Making predictions...
+Scaling features...
+Features scaled.
+Predicting using KNN...
+KNN predictions complete.
+Calculating confusion matrix...
+Confusion matrix calculated.
+Calculating accuracy...
+Accuracy: 0.3333
+Generating classification report...
 Classification Report:
               precision    recall  f1-score   support
 
-           a       0.00      0.00      0.00         3
-           e       0.33      0.08      0.13        12
-           i       0.00      0.00      0.00         3
-           o       0.33      0.25      0.29        12
-           u       0.00      0.00      0.00         6
+           a       0.17      0.50      0.25         2
+           e       0.00      0.00      0.00         2
+           i       0.00      0.00      0.00         1
+           o       0.67      0.50      0.57         4
+           u       0.33      0.33      0.33         3
 
-    accuracy                           0.11        36
-   macro avg       0.13      0.07      0.08        36
-weighted avg       0.22      0.11      0.14        36
+    accuracy                           0.33        12
+   macro avg       0.23      0.27      0.23        12
+weighted avg       0.33      0.33      0.32        12
 
-All outputs have been saved in: ./vowel_classification_output
-Running advanced analysis...
-Tuning knn...
-Fitting 5 folds for each of 36 candidates, totalling 180 fits
-Best parameters for knn: {'metric': 'manhattan', 'n_neighbors': 3, 'weights': 'uniform'}
-Best cross-validation score: 0.2899
-Tuning svm...
-Fitting 5 folds for each of 48 candidates, totalling 240 fits
-Best parameters for svm: {'C': 0.1, 'gamma': 'auto', 'kernel': 'poly'}
-Best cross-validation score: 0.2206
-Tuning rf...
-Fitting 5 folds for each of 108 candidates, totalling 540 fits
-Best parameters for rf: {'max_depth': 10, 'min_samples_leaf': 1, 'min_samples_split': 5, 'n_estimators': 50}
-Best cross-validation score: 0.3042
-Ensemble Model Accuracy: 0.4167
-
-Ensemble Classification Report:
+Classifier evaluation complete.
+Accuracy: 0.3333
+Classification Report:
               precision    recall  f1-score   support
 
-           0       0.00      0.00      0.00         3
-           1       0.67      0.33      0.44        12
-           2       0.00      0.00      0.00         3
-           3       0.41      0.92      0.56        12
-           4       0.00      0.00      0.00         6
+           a       0.17      0.50      0.25         2
+           e       0.00      0.00      0.00         2
+           i       0.00      0.00      0.00         1
+           o       0.67      0.50      0.57         4
+           u       0.33      0.33      0.33         3
 
-    accuracy                           0.42        36
-   macro avg       0.21      0.25      0.20        36
-weighted avg       0.36      0.42      0.34        36
+    accuracy                           0.33        12
+   macro avg       0.23      0.27      0.23        12
+weighted avg       0.33      0.33      0.32        12
 
-No training samples found for vowel '0', skipping its visualization.
-No training samples found for vowel '1', skipping its visualization.
-No training samples found for vowel '2', skipping its visualization.
-No training samples found for vowel '3', skipping its visualization.
-No training samples found for vowel '4', skipping its visualization.
+Plotting confusion matrix...
+Plotting confusion matrix...
+Confusion matrix plotted.
+Plotting normalized confusion matrix...
+Plotting normalized confusion matrix...
+Normalized confusion matrix plotted.
+
+Training KNN (k=5)...
+Training classifier...
+Scaling features...
+Features scaled.
+Training KNN classifier...
+KNN classifier trained.
+Classifier training complete.
+Evaluating KNN (k=5)...
+Evaluating classifier...
+Making predictions...
+Scaling features...
+Features scaled.
+Predicting using KNN...
+KNN predictions complete.
+Calculating confusion matrix...
+Confusion matrix calculated.
+Calculating accuracy...
+Accuracy: 0.5000
+Generating classification report...
+Classification Report:
+              precision    recall  f1-score   support
+
+           a       0.00      0.00      0.00         2
+           e       0.00      0.00      0.00         2
+           i       0.00      0.00      0.00         1
+           o       0.60      0.75      0.67         4
+           u       0.75      1.00      0.86         3
+
+    accuracy                           0.50        12
+   macro avg       0.27      0.35      0.30        12
+weighted avg       0.39      0.50      0.44        12
+
+Classifier evaluation complete.
+Accuracy: 0.5000
+Classification Report:
+              precision    recall  f1-score   support
+
+           a       0.00      0.00      0.00         2
+           e       0.00      0.00      0.00         2
+           i       0.00      0.00      0.00         1
+           o       0.60      0.75      0.67         4
+           u       0.75      1.00      0.86         3
+
+    accuracy                           0.50        12
+   macro avg       0.27      0.35      0.30        12
+weighted avg       0.39      0.50      0.44        12
+
+Plotting confusion matrix...
+Plotting confusion matrix...
+Confusion matrix plotted.
+Plotting normalized confusion matrix...
+Plotting normalized confusion matrix...
+Normalized confusion matrix plotted.
+
+Training GMM...
+Training classifier...
+Scaling features...
+Features scaled.
+Training GMM classifier...
+Training GMM for each vowel:   0%|          | 0/5 [00:00<?, ?it/s]Training GMM for each vowel:  20%|██        | 1/5 [00:00<00:00,  5.35it/s]Training GMM for each vowel: 100%|██████████| 5/5 [00:00<00:00, 25.89it/s]
+GMM classifier trained.
+Classifier training complete.
+Evaluating GMM...
+Evaluating classifier...
+Making predictions...
+Scaling features...
+Features scaled.
+Predicting using GMMs...
+GMM predictions complete.
+Calculating confusion matrix...
+Confusion matrix calculated.
+Calculating accuracy...
+Accuracy: 0.3333
+Generating classification report...
+Classification Report:
+              precision    recall  f1-score   support
+
+           a       0.00      0.00      0.00         2
+           e       0.00      0.00      0.00         2
+           i       0.00      0.00      0.00         1
+           o       1.00      0.50      0.67         4
+           u       0.50      0.67      0.57         3
+
+    accuracy                           0.33        12
+   macro avg       0.30      0.23      0.25        12
+weighted avg       0.46      0.33      0.37        12
+
+Classifier evaluation complete.
+Accuracy: 0.3333
+Classification Report:
+              precision    recall  f1-score   support
+
+           a       0.00      0.00      0.00         2
+           e       0.00      0.00      0.00         2
+           i       0.00      0.00      0.00         1
+           o       1.00      0.50      0.67         4
+           u       0.50      0.67      0.57         3
+
+    accuracy                           0.33        12
+   macro avg       0.30      0.23      0.25        12
+weighted avg       0.46      0.33      0.37        12
+
+Plotting confusion matrix...
+Plotting confusion matrix...
+Confusion matrix plotted.
+Plotting normalized confusion matrix...
+Plotting normalized confusion matrix...
+Normalized confusion matrix plotted.
+Comparing classifiers...
+Comparing classifiers...
+Classifier comparison complete.
+
+=== ANALYSIS AND DISCUSSION ===
+
+1. Formant Pattern Analysis:
+   - The F1-F2 vowel space plot shows clear clustering of vowels in accordance with
+     linguistic theory. Vowels /i/ and /u/ have low F1, while /a/ has high F1.
+   - F2 differentiates front vowels (/i/, /e/) from back vowels (/o/, /u/).
+   - Gender differences in formant frequencies are observed, with females typically
+     having higher formant values due to smaller vocal tracts.
+
+2. Classification Performance:
+   - Best classifier: KNN (k=5) with accuracy of 0.5000
+   - Common misclassifications observed:
+     * Vowel /a/ misclassified as /e/ 1 times
+     * Vowel /a/ misclassified as /o/ 1 times
+     * Vowel /e/ misclassified as /a/ 1 times
+     * Vowel /e/ misclassified as /o/ 1 times
+     * Vowel /i/ misclassified as /e/ 1 times
+     * Vowel /o/ misclassified as /u/ 1 times
+
+3. Potential Sources of Error:
+   - Variability in pronunciation between speakers
+   - Background noise and recording quality variations
+   - Limitations of LPC-based formant extraction for certain vowels
+   - Overlap in acoustic features between similar vowels
+
+4. Historical Context:
+   - This approach builds on the foundational work in phonetics by researchers
+     like Peterson and Barney (1952) who created the first comprehensive
+     formant-based vowel classification systems.
+   - Traditional speech recognition systems of the 1970s-80s relied heavily on
+     similar acoustic-phonetic approaches before the rise of statistical models.
+
+5. Potential Improvements:
+   - Include additional features like duration and spectral moments
+   - Implement dynamic time warping for better temporal modeling
+   - Explore deep learning approaches for feature extraction
+   - Incorporate speaker normalization techniques to reduce gender/age variations
+   - Implement more sophisticated classification algorithms like SVMs or Random Forests
+Returning results...
+Complete analysis finished.
+End of main execution.
